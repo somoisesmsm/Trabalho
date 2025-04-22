@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contato | Moises Nascimento</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Fale Comigo</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="curriculo.html">Currículo</a>
+    <a href="github.html">GitHub</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  <div class="container">
+    <form>
+      <label>Nome completo:</label>
+      <input type="text" name="nome">
+
+      <label>Telefone:</label>
+      <input type="tel" name="telefone">
+
+      <label>Email:</label>
+      <input type="email" name="email">
+
+      <label>Tipo de cliente:</label>
+      <select>
+        <option>Pessoa Física</option>
+        <option>Pessoa Jurídica</option>
+      </select>
+
+      <label>Melhor horário para contato:</label>
+      <input type="text" name="horario">
+
+      <label>Tipo de serviço desejado:</label><br>
+      <input type="checkbox" value="site-estatico"> Site Estático<br>
+      <input type="checkbox" value="site-dinamico"> Site Dinâmico<br>
+      <input type="checkbox" value="site-avancado"> Site Avançado<br>
+
+      <label>Descrição do projeto:</label>
+      <textarea rows="4"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+  <footer>
+    &copy; 2025 Moises Nascimento
+  </footer>
+</body>
+</html>
